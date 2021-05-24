@@ -1,0 +1,22 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "A starting setup for TypeScript projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "Johann Cooper",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  }
+}
